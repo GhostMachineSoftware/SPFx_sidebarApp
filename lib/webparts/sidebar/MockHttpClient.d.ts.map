@@ -1,0 +1,1 @@
+{"version":3,"file":"MockHttpClient.d.ts","sourceRoot":"","sources":["../../../src/webparts/sidebar/MockHttpClient.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,EAAE,MAAM,kBAAkB,CAAC;AAE3C,MAAM,CAAC,OAAO;IAEV,OAAO,CAAC,MAAM,CAAC,MAAM,CAEkD;WAEzD,GAAG,IAAI,OAAO,CAAC,OAAO,EAAE,CAAC;CAK1C"}

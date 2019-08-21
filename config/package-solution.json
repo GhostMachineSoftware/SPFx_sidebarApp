@@ -1,12 +1,27 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "sidebar-client-side-solution",
+    "name": "sidebarApp",
     "id": "36dd8fb3-bc3d-4ef6-a17f-7106eb66ebe4",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
-    "isDomainIsolated": false
+    "isDomainIsolated": false,
+    "features": [{
+      "title": "sidebarApp",
+      "description": "sidebar app container",
+      "id": "523fe887-ced5-4036-b564-8dad5c6c6e24",    
+      "version": "1.0.0.0",
+      "assets": {
+        "elementManifests": [
+          "elements.xml"
+        ],
+        "elementFiles":[
+          "schemaOne.xml",
+          "schemaTwo.xml"
+        ]
+      }
+    }]    
   },
   "paths": {
     "zippedPackage": "solution/sidebar.sppkg"

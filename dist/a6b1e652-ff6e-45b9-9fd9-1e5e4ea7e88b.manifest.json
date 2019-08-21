@@ -5,8 +5,10 @@
   "version": "0.0.1",
   "manifestVersion": 2,
   "requiresCustomScript": false,
+  "supportsFullBleed": true,
   "supportedHosts": [
-    "SharePointWebPart"
+    "SharePointWebPart",
+    "SharePointFullPage"
   ],
   "preconfiguredEntries": [
     {
@@ -22,7 +24,11 @@
       },
       "officeFabricIconFontName": "Page",
       "properties": {
-        "description": "sidebar"
+        "description": "sidebar",
+        "test": "Multi-line text field",
+        "test1": true,
+        "test2": "2",
+        "test3": true
       }
     }
   ],
@@ -72,6 +78,11 @@
         "type": "component",
         "version": "1.8.2",
         "id": "1c6c9123-7aac-41f3-a376-3caea41ed83f"
+      },
+      "@microsoft/sp-http": {
+        "type": "component",
+        "version": "1.8.2",
+        "id": "c07208f0-ea3b-4c1a-9965-ac1b825211a6"
       }
     }
   }

@@ -20,6 +20,11 @@
       "path": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
       "globalName": "bootstrap",
       "globalDependencies": ["jquery"]
+    },
+    "reveal": {
+      "path": "https://cdnjs.cloudflare.com/ajax/libs/slideReveal/1.1.2/jquery.slidereveal.js",
+      "globalName": "reveal",
+      "globalDependencies": ["jquery"]
     }
   },
   "localizedResources": {
