@@ -11,7 +11,7 @@ import * as strings from 'SidebarWebPartStrings';
 //*** Custom Imports ***/
 import UsefulLinksTemplate from './SidebarTemplate';
 
-import * as $ from 'jquery';
+import * as $ from 'jQuery';
 require('bootstrap');
 require('./styles/custom.css');
 import { SPComponentLoader } from '@microsoft/sp-loader';

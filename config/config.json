@@ -14,17 +14,17 @@
   "externals": {
     "jquery": {
       "path": "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js",
-      "globalName": "jquery"
+      "globalName": "jQuery"
     },
     "bootstrap": {
       "path": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
       "globalName": "bootstrap",
-      "globalDependencies": ["jquery"]
+      "globalDependencies": ["jQuery"]
     },
     "reveal": {
       "path": "https://cdnjs.cloudflare.com/ajax/libs/slideReveal/1.1.2/jquery.slidereveal.js",
       "globalName": "reveal",
-      "globalDependencies": ["jquery"]
+      "globalDependencies": ["jQuery"]
     }
   },
   "localizedResources": {

@@ -3,7 +3,7 @@
   "solution": {
     "name": "sidebarApp",
     "id": "36dd8fb3-bc3d-4ef6-a17f-7106eb66ebe4",
-    "version": "1.0.0.0",
+    "version": "1.1.0.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
@@ -11,14 +11,13 @@
       "title": "sidebarApp",
       "description": "sidebar app container",
       "id": "523fe887-ced5-4036-b564-8dad5c6c6e24",    
-      "version": "1.0.0.0",
+      "version": "1.1.0.0",
       "assets": {
         "elementManifests": [
-          "elements.xml"
+          "elementsLinks.xml",
         ],
         "elementFiles":[
-          "schemaOne.xml",
-          "schemaTwo.xml"
+          "schemaLinks.xml",
         ]
       }
     }]    

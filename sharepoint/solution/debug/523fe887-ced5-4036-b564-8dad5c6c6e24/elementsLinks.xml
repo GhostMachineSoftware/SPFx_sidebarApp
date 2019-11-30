@@ -37,15 +37,6 @@
     </ContentType> 
 
     <ListInstance 
-            CustomSchema="schemaOne.xml"
-            FeatureId="00bfea71-de22-43b2-a848-c05709900100"
-            Title="metrotiles" 
-            Description="Metrotiles List"
-            TemplateType="100"
-            Url="Lists/metrotiles">
-    </ListInstance>
-
-    <ListInstance 
             CustomSchema="schemaTwo.xml"
             FeatureId="00bfea71-de22-43b2-a848-c05709900100"
             Title="links" 
